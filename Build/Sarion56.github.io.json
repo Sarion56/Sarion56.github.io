@@ -1,0 +1,16 @@
+{
+"companyName": "YesVR",
+"productName": "YesVR Training",
+"productVersion": "1.0",
+"dataUrl": "Sarion56.github.io.data.unityweb",
+"wasmCodeUrl": "Sarion56.github.io.wasm.code.unityweb",
+"wasmFrameworkUrl": "Sarion56.github.io.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Light",
+"backgroundColor": "#828080",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.12f1"
+}
