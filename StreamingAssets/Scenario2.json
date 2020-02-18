@@ -1,0 +1,5566 @@
+  {
+    "scenarioFolder": "http://yesvrvirtualtraining.s3-ap-southeast-2.amazonaws.com/RSA/Scenario2/",
+    "scenarioImageJSON": "http://yesvrvirtualtraining.s3-ap-southeast-2.amazonaws.com/RSA/Images/Scenario2_Images.json",
+    "scenarioName": "Can I keep serving them?",
+    "scenarioBackgroundImage": "SC02_Background",
+    "nodes": [
+      {
+        "nodeName": "SC02_Start",
+        "nodeID": 0,
+        "actionTriggers": [
+          {
+            "triggerName": "Start Sequence",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ],
+        "graphicalElements": [
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "Start",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 0,
+            "textBoxSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "Start",
+            "imageSize": {
+              "x": 300.0,
+              "y": 200.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": -0.3,
+              "z": 2.86
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 1,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          },
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "Title",
+            "interactable": false,
+            "scoringFeedback": false,
+            "text": "Can I keep serving them?",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 20,
+            "textBoxSize": {
+              "x": 160.0,
+              "y": 80.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.5,
+              "z": 2.9
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "",
+            "imageSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 27,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeName": "SC02_IntroductoryText",
+        "nodeID": 1,
+        "actionTriggers": [
+          {
+            "triggerName": "Unfade",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ],
+        "graphicalElements": [
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "IntroductoryText",
+            "interactable": false,
+            "scoringFeedback": false,
+            "text": "Two men come into the pub at 5pm and start drinking heavily. They begin consuming a large amount of alcohol very quickly. This goes on for about 2 hours. At this point what do you do?",
+            "textAlignmentHorizontal": 0,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 12,
+            "textBoxSize": {
+              "x": 240.0,
+              "y": 140.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.15,
+              "z": 2.95
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "",
+            "imageSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": []
+          },
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "CenterContinueIntroText",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Continue",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 2.6
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "Continue",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": -0.75,
+              "z": 2.6
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 2,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeName": "SC02_Intro_CS",
+        "nodeID": 2,
+        "actionTriggers": [
+          {
+            "triggerName": "",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Play 360 Video",
+                "actionType": 3,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_OPT_01"
+              },
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_OPT_01"
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_OPT_01"
+              }
+            ]
+          }
+        ],
+        "graphicalElements": [
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "LeftVideoResponse",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 0,
+            "textBoxSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "SC02_Bartender_Play",
+            "imageSize": {
+              "x": 160.0,
+              "y": 90.0
+            },
+            "imagePosition": {
+              "x": -2.0,
+              "y": 0.0,
+              "z": 2.4
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": -45.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Play 2D Video",
+                "actionType": 2,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_NOP_RE_01"
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "CenterVideoResponse",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 0,
+            "textBoxSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "SC02_Bartender_Play",
+            "imageSize": {
+              "x": 160.0,
+              "y": 90.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 3.0
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Play 2D Video",
+                "actionType": 2,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_OPT_RE_01"
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "RightVideoResponse",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 0,
+            "textBoxSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "SC02_Bartender_Play",
+            "imageSize": {
+              "x": 160.0,
+              "y": 90.0
+            },
+            "imagePosition": {
+              "x": 2.0,
+              "y": 0.0,
+              "z": 2.4
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 45.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Play 2D Video",
+                "actionType": 2,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_SOP_RE_01"
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "LeftResponse",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 14,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": -2.0,
+              "y": -0.95,
+              "z": 2.5
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": -45.0,
+              "z": 0.0
+            },
+            "imageName": "A-Response",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": -2.0,
+              "y": -0.7,
+              "z": 2.5
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": -45.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Add Score",
+                "actionType": 5,
+                "connectedNodeID": 3,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 1,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 3,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "CenterResponse",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 14,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": -0.95,
+              "z": 2.9
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "B-Response",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": -0.7,
+              "z": 2.9
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Add Score",
+                "actionType": 5,
+                "connectedNodeID": 4,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 100.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 4,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "RightResponse",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 14,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": 2.0,
+              "y": -0.95,
+              "z": 2.5
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 45.0,
+              "z": 0.0
+            },
+            "imageName": "C-Response",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": 2.0,
+              "y": -0.7,
+              "z": 2.5
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 45.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Add Score",
+                "actionType": 5,
+                "connectedNodeID": 5,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 2,
+                "scoreValue": 50.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 5,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeName": "SC02_1A (NOP 01)",
+        "nodeID": 3,
+        "actionTriggers": [
+          {
+            "triggerName": "",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ],
+        "graphicalElements": [
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "TextFeedback",
+            "interactable": false,
+            "scoringFeedback": false,
+            "text": "Customers don't like being 'bluntly' told their service is being \"cut-off\"! Use a more professional, diplomatic approach to avoid sounding arrogant, authoritarian and a potential escalation.",
+            "textAlignmentHorizontal": 0,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 12,
+            "textBoxSize": {
+              "x": 240.0,
+              "y": 140.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.15,
+              "z": 2.95
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "",
+            "imageSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": []
+          },
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "LeftContinue",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Continue",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": -1.25,
+              "y": -1.0,
+              "z": 2.5
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": -30.0,
+              "z": 0.0
+            },
+            "imageName": "Continue",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": -1.25,
+              "y": -0.75,
+              "z": 2.5
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": -30.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 9,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeName": "SC02_1B (OPT 01)",
+        "nodeID": 4,
+        "actionTriggers": [
+          {
+            "triggerName": "",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ],
+        "graphicalElements": [
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "TextFeedback",
+            "interactable": false,
+            "scoringFeedback": false,
+            "text": "You're friendly yet assertive, which is very appropriate at this point. Applying a good, professional intervention strategy to minimise harm.",
+            "textAlignmentHorizontal": 0,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 12,
+            "textBoxSize": {
+              "x": 240.0,
+              "y": 140.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.15,
+              "z": 2.95
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "",
+            "imageSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": []
+          },
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "LeftContinue",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Continue",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": -1.25,
+              "y": -1.0,
+              "z": 2.5
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": -30.0,
+              "z": 0.0
+            },
+            "imageName": "Continue",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": -1.25,
+              "y": -0.75,
+              "z": 2.5
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": -30.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 10,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          },
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "ExpertFeedback",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Expert Feedback",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": 1.25,
+              "y": -1.0,
+              "z": 2.5
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 30.0,
+              "z": 0.0
+            },
+            "imageName": "ExpertFeedback",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": 1.25,
+              "y": -0.75,
+              "z": 2.6
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 30.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 7,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeName": "SC02_1C (SOP 01)",
+        "nodeID": 5,
+        "actionTriggers": [
+          {
+            "triggerName": "",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ],
+        "graphicalElements": [
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "TextFeedback",
+            "interactable": false,
+            "scoringFeedback": false,
+            "text": "This response shows a good effort. To improve your approach, try diplomatically explaining why you have suggested they slow down their drinking.",
+            "textAlignmentHorizontal": 0,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 12,
+            "textBoxSize": {
+              "x": 240.0,
+              "y": 140.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.15,
+              "z": 2.95
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "",
+            "imageSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": []
+          },
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "LeftContinue",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Continue",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": -1.25,
+              "y": -1.0,
+              "z": 2.5
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": -30.0,
+              "z": 0.0
+            },
+            "imageName": "Continue",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": -1.25,
+              "y": -0.75,
+              "z": 2.5
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": -30.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 11,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          },
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "ExpertFeedback",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Expert Feedback",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": 1.25,
+              "y": -1.0,
+              "z": 2.5
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 30.0,
+              "z": 0.0
+            },
+            "imageName": "ExpertFeedback",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": 1.25,
+              "y": -0.75,
+              "z": 2.6
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 30.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 8,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeName": "SC02_NOP_FB_01 (Not Setup)",
+        "nodeID": 6,
+        "actionTriggers": [],
+        "graphicalElements": []
+      },
+      {
+        "nodeName": "SC02_OPT_FB_01",
+        "nodeID": 7,
+        "actionTriggers": [
+          {
+            "triggerName": "",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Play 360 Video",
+                "actionType": 3,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_OPT_FB_01"
+              },
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_OPT_FB_01"
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_OPT_FB_01"
+              }
+            ]
+          }
+        ],
+        "graphicalElements": [
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "CenterContinue",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Continue",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": -0.3,
+              "y": -1.0,
+              "z": 2.6
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "Continue",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": -0.3,
+              "y": -0.75,
+              "z": 2.6
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 10,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "ReplayVideo",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Replay Feedback",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": 0.3,
+              "y": -1.0,
+              "z": 2.6
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "Replay",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": 0.3,
+              "y": -0.75,
+              "z": 2.6
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Replay Video",
+                "actionType": 4,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeName": "SC02_SOP_FB_01",
+        "nodeID": 8,
+        "actionTriggers": [
+          {
+            "triggerName": "",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Play 360 Video",
+                "actionType": 3,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_SOP_FB_01"
+              },
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_SOP_FB_01"
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_SOP_FB_01"
+              }
+            ]
+          }
+        ],
+        "graphicalElements": [
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "CenterContinue",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Continue",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": -0.3,
+              "y": -1.0,
+              "z": 2.6
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "Continue",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": -0.3,
+              "y": -0.75,
+              "z": 2.6
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 11,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "ReplayVideo",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Replay Feedback",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": 0.3,
+              "y": -1.0,
+              "z": 2.6
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "Replay",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": 0.3,
+              "y": -0.75,
+              "z": 2.6
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Replay Video",
+                "actionType": 4,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeName": "SC02_NOP_CS_02",
+        "nodeID": 9,
+        "actionTriggers": [
+          {
+            "triggerName": "",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Play 360 Video",
+                "actionType": 3,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_NOP_02"
+              },
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_NOP_02"
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_NOP_02"
+              }
+            ]
+          }
+        ],
+        "graphicalElements": [
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "LeftVideoResponse",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 0,
+            "textBoxSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "SC02_Bartender_Play",
+            "imageSize": {
+              "x": 160.0,
+              "y": 90.0
+            },
+            "imagePosition": {
+              "x": -2.0,
+              "y": 0.0,
+              "z": 2.4
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": -45.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Play 2D Video",
+                "actionType": 2,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_SOP_RE_02"
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "CenterVideoResponse",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 0,
+            "textBoxSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "SC02_Bartender_Play",
+            "imageSize": {
+              "x": 160.0,
+              "y": 90.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 3.0
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Play 2D Video",
+                "actionType": 2,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_NOP_RE_02"
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "LeftResponse",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 14,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": -2.0,
+              "y": -0.95,
+              "z": 2.5
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": -45.0,
+              "z": 0.0
+            },
+            "imageName": "A-Response",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": -2.0,
+              "y": -0.7,
+              "z": 2.5
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": -45.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Add Score",
+                "actionType": 5,
+                "connectedNodeID": 12,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 2,
+                "scoreValue": 50.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 12,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "CenterResponse",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 14,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": -0.95,
+              "z": 2.9
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "B-Response",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": -0.7,
+              "z": 2.9
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Add Score",
+                "actionType": 5,
+                "connectedNodeID": 13,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 1,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 13,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeName": "SC02_OPT_CS_02",
+        "nodeID": 10,
+        "actionTriggers": [
+          {
+            "triggerName": "",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Play 360 Video",
+                "actionType": 3,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_OPT_02"
+              },
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_OPT_02"
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_OPT_02"
+              }
+            ]
+          }
+        ],
+        "graphicalElements": [
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "LeftVideoResponse",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 0,
+            "textBoxSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "SC02_Bartender_Play",
+            "imageSize": {
+              "x": 160.0,
+              "y": 90.0
+            },
+            "imagePosition": {
+              "x": -2.0,
+              "y": 0.0,
+              "z": 2.4
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": -45.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Play 2D Video",
+                "actionType": 2,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_SOP_RE_02"
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "CenterVideoResponse",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 0,
+            "textBoxSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "SC02_Bartender_Play",
+            "imageSize": {
+              "x": 160.0,
+              "y": 90.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 3.0
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Play 2D Video",
+                "actionType": 2,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_NOP_RE_02"
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "RightVideoResponse",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 0,
+            "textBoxSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "SC02_Bartender_Play",
+            "imageSize": {
+              "x": 160.0,
+              "y": 90.0
+            },
+            "imagePosition": {
+              "x": 2.0,
+              "y": 0.0,
+              "z": 2.4
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 45.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Play 2D Video",
+                "actionType": 2,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_OPT_RE_02"
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "LeftResponse",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 14,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": -2.0,
+              "y": -0.95,
+              "z": 2.5
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": -45.0,
+              "z": 0.0
+            },
+            "imageName": "A-Response",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": -2.0,
+              "y": -0.7,
+              "z": 2.5
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": -45.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Add Score",
+                "actionType": 5,
+                "connectedNodeID": 12,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 2,
+                "scoreValue": 50.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 12,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "CenterResponse",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 14,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": -0.95,
+              "z": 2.9
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "B-Response",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": -0.7,
+              "z": 2.9
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Add Score",
+                "actionType": 5,
+                "connectedNodeID": 13,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 1,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 13,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "RightResponse",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 14,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": 2.0,
+              "y": -0.95,
+              "z": 2.5
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 45.0,
+              "z": 0.0
+            },
+            "imageName": "C-Response",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": 2.0,
+              "y": -0.7,
+              "z": 2.5
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 45.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Add Score",
+                "actionType": 5,
+                "connectedNodeID": 14,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 100.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 14,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeName": "SC02_SOP_CS_02",
+        "nodeID": 11,
+        "actionTriggers": [
+          {
+            "triggerName": "",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Play 360 Video",
+                "actionType": 3,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_SOP_02"
+              },
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_SOP_02"
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_SOP_02"
+              }
+            ]
+          }
+        ],
+        "graphicalElements": [
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "LeftVideoResponse",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 0,
+            "textBoxSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "SC02_Bartender_Play",
+            "imageSize": {
+              "x": 160.0,
+              "y": 90.0
+            },
+            "imagePosition": {
+              "x": -2.0,
+              "y": 0.0,
+              "z": 2.4
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": -45.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Play 2D Video",
+                "actionType": 2,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_SOP_RE_02"
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "CenterVideoResponse",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 0,
+            "textBoxSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "SC02_Bartender_Play",
+            "imageSize": {
+              "x": 160.0,
+              "y": 90.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 3.0
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Play 2D Video",
+                "actionType": 2,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_NOP_RE_02"
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "RightVideoResponse",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 0,
+            "textBoxSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "SC02_Bartender_Play",
+            "imageSize": {
+              "x": 160.0,
+              "y": 90.0
+            },
+            "imagePosition": {
+              "x": 2.0,
+              "y": 0.0,
+              "z": 2.4
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 45.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Play 2D Video",
+                "actionType": 2,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_OPT_RE_02"
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "LeftResponse",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 14,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": -2.0,
+              "y": -0.95,
+              "z": 2.5
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": -45.0,
+              "z": 0.0
+            },
+            "imageName": "A-Response",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": -2.0,
+              "y": -0.7,
+              "z": 2.5
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": -45.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Add Score",
+                "actionType": 5,
+                "connectedNodeID": 12,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 2,
+                "scoreValue": 50.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 12,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "CenterResponse",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 14,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": -0.95,
+              "z": 2.9
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "B-Response",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": -0.7,
+              "z": 2.9
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Add Score",
+                "actionType": 5,
+                "connectedNodeID": 13,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 1,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 13,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "RightResponse",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 14,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": 2.0,
+              "y": -0.95,
+              "z": 2.5
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 45.0,
+              "z": 0.0
+            },
+            "imageName": "C-Response",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": 2.0,
+              "y": -0.7,
+              "z": 2.5
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 45.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Add Score",
+                "actionType": 5,
+                "connectedNodeID": 14,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 100.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 14,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeName": "SC02_2A (SOP 02)",
+        "nodeID": 12,
+        "actionTriggers": [
+          {
+            "triggerName": "",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ],
+        "graphicalElements": [
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "TextFeedback",
+            "interactable": false,
+            "scoringFeedback": false,
+            "text": "The general message is in your dialogue. However, if you provide valid reason to this, you can maintain a calm situation.",
+            "textAlignmentHorizontal": 0,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 12,
+            "textBoxSize": {
+              "x": 240.0,
+              "y": 140.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.15,
+              "z": 2.95
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "",
+            "imageSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": []
+          },
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "LeftContinue",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Continue",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": -1.25,
+              "y": -1.0,
+              "z": 2.5
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": -30.0,
+              "z": 0.0
+            },
+            "imageName": "Continue",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": -1.25,
+              "y": -0.75,
+              "z": 2.5
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": -30.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 20,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          },
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "ExpertFeedback",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Expert Feedback",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": 1.25,
+              "y": -1.0,
+              "z": 2.5
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 30.0,
+              "z": 0.0
+            },
+            "imageName": "ExpertFeedback",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": 1.25,
+              "y": -0.75,
+              "z": 2.6
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 30.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 17,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeName": "SC02_2B (NOP 02)",
+        "nodeID": 13,
+        "actionTriggers": [
+          {
+            "triggerName": "",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ],
+        "graphicalElements": [
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "TextFeedback",
+            "interactable": false,
+            "scoringFeedback": false,
+            "text": "Here you sound very abrupt. To prevent undesired reactions, try to show more empathy, use also your facial expressions and stance to support your message. Also, ensure you explain the reason without 'judgement'.",
+            "textAlignmentHorizontal": 0,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 12,
+            "textBoxSize": {
+              "x": 240.0,
+              "y": 140.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.15,
+              "z": 2.95
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "",
+            "imageSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": []
+          },
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "LeftContinue",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Continue",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": -1.25,
+              "y": -1.0,
+              "z": 2.5
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": -30.0,
+              "z": 0.0
+            },
+            "imageName": "Continue",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": -1.25,
+              "y": -0.75,
+              "z": 2.5
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": -30.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 18,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 18,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeName": "SC02_2C (OPT 02)",
+        "nodeID": 14,
+        "actionTriggers": [
+          {
+            "triggerName": "",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ],
+        "graphicalElements": [
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "TextFeedback",
+            "interactable": false,
+            "scoringFeedback": false,
+            "text": "Great! You've convinced the customer! You were polite, professional and empathetic - It sounds like you are genuinely considering their well being!",
+            "textAlignmentHorizontal": 0,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 12,
+            "textBoxSize": {
+              "x": 240.0,
+              "y": 140.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.15,
+              "z": 2.95
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "",
+            "imageSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": []
+          },
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "LeftContinue",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Continue",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": -1.25,
+              "y": -1.0,
+              "z": 2.5
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": -30.0,
+              "z": 0.0
+            },
+            "imageName": "Continue",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": -1.25,
+              "y": -0.75,
+              "z": 2.5
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": -30.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 19,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          },
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "ExpertFeedback",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Expert Feedback",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": 1.25,
+              "y": -1.0,
+              "z": 2.5
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 30.0,
+              "z": 0.0
+            },
+            "imageName": "ExpertFeedback",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": 1.25,
+              "y": -0.75,
+              "z": 2.6
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 30.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 16,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeName": "SC02_NOP_FB_02 (Not Setup)",
+        "nodeID": 15,
+        "actionTriggers": [],
+        "graphicalElements": []
+      },
+      {
+        "nodeName": "SC02_OPT_FB_02",
+        "nodeID": 16,
+        "actionTriggers": [
+          {
+            "triggerName": "",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Play 360 Video",
+                "actionType": 3,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_OPT_FB_02"
+              },
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_OPT_FB_02"
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_OPT_FB_02"
+              }
+            ]
+          }
+        ],
+        "graphicalElements": [
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "CenterContinue",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Continue",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": -0.3,
+              "y": -1.0,
+              "z": 2.6
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "Continue",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": -0.3,
+              "y": -0.75,
+              "z": 2.6
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 19,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "ReplayVideo",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Replay Feedback",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": 0.3,
+              "y": -1.0,
+              "z": 2.6
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "Replay",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": 0.3,
+              "y": -0.75,
+              "z": 2.6
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Replay Video",
+                "actionType": 4,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeName": "SC02_SOP_FB_02",
+        "nodeID": 17,
+        "actionTriggers": [
+          {
+            "triggerName": "",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Play 360 Video",
+                "actionType": 3,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_SOP_FB_02"
+              },
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_SOP_FB_02"
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_SOP_FB_02"
+              }
+            ]
+          }
+        ],
+        "graphicalElements": [
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "CenterContinue",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Continue",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": -0.3,
+              "y": -1.0,
+              "z": 2.6
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "Continue",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": -0.3,
+              "y": -0.75,
+              "z": 2.6
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 20,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "ReplayVideo",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Replay Feedback",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": 0.3,
+              "y": -1.0,
+              "z": 2.6
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "Replay",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": 0.3,
+              "y": -0.75,
+              "z": 2.6
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Replay Video",
+                "actionType": 4,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeName": "SC02_NOP_CS_03",
+        "nodeID": 18,
+        "actionTriggers": [
+          {
+            "triggerName": "",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Play 360 Video",
+                "actionType": 3,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_NOP_03"
+              },
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 22,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ],
+        "graphicalElements": []
+      },
+      {
+        "nodeName": "SC02_OPT_CS_03",
+        "nodeID": 19,
+        "actionTriggers": [
+          {
+            "triggerName": "",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 150,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Play 360 Video",
+                "actionType": 3,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_OPT_03"
+              },
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_OPT_03"
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_OPT_03"
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 23,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_OPT_03"
+              }
+            ]
+          }
+        ],
+        "graphicalElements": []
+      },
+      {
+        "nodeName": "SC02_SOP_CS_03",
+        "nodeID": 20,
+        "actionTriggers": [
+          {
+            "triggerName": "",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Play 360 Video",
+                "actionType": 3,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_SOP_03"
+              },
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_SOP_03"
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_SOP_03"
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 21,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_SOP_03"
+              }
+            ]
+          }
+        ],
+        "graphicalElements": [
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "",
+            "interactable": false,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 0,
+            "textAlignmentVertical": 0,
+            "textFont": "",
+            "fontSize": 0,
+            "textBoxSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "",
+            "imageSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": []
+          },
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "",
+            "interactable": false,
+            "scoringFeedback": false,
+            "text": "",
+            "textAlignmentHorizontal": 0,
+            "textAlignmentVertical": 0,
+            "textFont": "",
+            "fontSize": 0,
+            "textBoxSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "",
+            "imageSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": []
+          }
+        ]
+      },
+      {
+        "nodeName": "SC02_3A (SOP 02)",
+        "nodeID": 21,
+        "actionTriggers": [
+          {
+            "triggerName": "",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ],
+        "graphicalElements": [
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "TextFeedback",
+            "interactable": false,
+            "scoringFeedback": false,
+            "text": "You made it clear this is going to be the \"last round\". So the customers are aware. Though, with a bit more diplomacy and tactic you could avoid customers becoming agitated and indignant.",
+            "textAlignmentHorizontal": 0,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 12,
+            "textBoxSize": {
+              "x": 240.0,
+              "y": 140.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.15,
+              "z": 2.95
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "",
+            "imageSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": []
+          },
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "LeftContinue",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Continue",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": -1.25,
+              "y": -1.0,
+              "z": 2.5
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": -30.0,
+              "z": 0.0
+            },
+            "imageName": "Continue",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": -1.25,
+              "y": -0.75,
+              "z": 2.5
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": -30.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 27,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          },
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "ExpertFeedback",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Expert Feedback",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": 1.25,
+              "y": -1.0,
+              "z": 2.5
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 30.0,
+              "z": 0.0
+            },
+            "imageName": "ExpertFeedback",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": 1.25,
+              "y": -0.75,
+              "z": 2.6
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 30.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 26,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeName": "SC02_3B (NOP 02)",
+        "nodeID": 22,
+        "actionTriggers": [
+          {
+            "triggerName": "",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ],
+        "graphicalElements": [
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "TextFeedback",
+            "interactable": false,
+            "scoringFeedback": false,
+            "text": "Try to be more empathetic, diplomatic and respectful when communicating reasons for refusing service. Customers are more likely to be understanding, which helps prevent further escalation.",
+            "textAlignmentHorizontal": 0,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 12,
+            "textBoxSize": {
+              "x": 240.0,
+              "y": 140.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.15,
+              "z": 2.95
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "",
+            "imageSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": []
+          },
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "LeftContinue",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Continue",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": -1.25,
+              "y": -1.0,
+              "z": 2.5
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": -30.0,
+              "z": 0.0
+            },
+            "imageName": "Continue",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": -1.25,
+              "y": -0.75,
+              "z": 2.5
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": -30.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 27,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          },
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "ExpertFeedback",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Expert Feedback",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": 1.25,
+              "y": -1.0,
+              "z": 2.5
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 30.0,
+              "z": 0.0
+            },
+            "imageName": "ExpertFeedback",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": 1.25,
+              "y": -0.75,
+              "z": 2.6
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 30.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 24,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeName": "SC02_3C (OPT 02)",
+        "nodeID": 23,
+        "actionTriggers": [
+          {
+            "triggerName": "",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ],
+        "graphicalElements": [
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "TextFeedback",
+            "interactable": false,
+            "scoringFeedback": false,
+            "text": "A well-delivered message and appropriate action that follows the law. This is a very successful outcome!",
+            "textAlignmentHorizontal": 0,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 12,
+            "textBoxSize": {
+              "x": 240.0,
+              "y": 140.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.15,
+              "z": 2.95
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "",
+            "imageSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": []
+          },
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "LeftContinue",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Continue",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": -1.25,
+              "y": -1.0,
+              "z": 2.5
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": -30.0,
+              "z": 0.0
+            },
+            "imageName": "Continue",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": -1.25,
+              "y": -0.75,
+              "z": 2.5
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": -30.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 27,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          },
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "ExpertFeedback",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Expert Feedback",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": 1.25,
+              "y": -1.0,
+              "z": 2.5
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 30.0,
+              "z": 0.0
+            },
+            "imageName": "ExpertFeedback",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": 1.25,
+              "y": -0.75,
+              "z": 2.6
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 30.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 25,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeName": "SC02_NOP_FB_03",
+        "nodeID": 24,
+        "actionTriggers": [
+          {
+            "triggerName": "",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Play 360 Video",
+                "actionType": 3,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_NOP_FB_03"
+              },
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_NOP_FB_03"
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 100.0,
+                "videoName": "SC02_NOP_FB_03"
+              }
+            ]
+          }
+        ],
+        "graphicalElements": [
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "CenterContinue",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Continue",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": -0.3,
+              "y": -1.0,
+              "z": 2.6
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "Continue",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": -0.3,
+              "y": -0.75,
+              "z": 2.6
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 27,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "ReplayVideo",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Replay Feedback",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": 0.3,
+              "y": -1.0,
+              "z": 2.6
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "Replay",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": 0.3,
+              "y": -0.75,
+              "z": 2.6
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Replay Video",
+                "actionType": 4,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeName": "SC02_OPT_FB_03",
+        "nodeID": 25,
+        "actionTriggers": [
+          {
+            "triggerName": "",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Play 360 Video",
+                "actionType": 3,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_OPT_FB_03"
+              },
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 100.0,
+                "videoName": "SC02_OPT_FB_03"
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_OPT_FB_03"
+              }
+            ]
+          }
+        ],
+        "graphicalElements": [
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "CenterContinue",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Continue",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": -0.3,
+              "y": -1.0,
+              "z": 2.6
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "Continue",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": -0.3,
+              "y": -0.75,
+              "z": 2.6
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 27,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "ReplayVideo",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Replay Feedback",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": 0.3,
+              "y": -1.0,
+              "z": 2.6
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "Replay",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": 0.3,
+              "y": -0.75,
+              "z": 2.6
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Replay Video",
+                "actionType": 4,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeName": "SC02_SOP_FB_03",
+        "nodeID": 26,
+        "actionTriggers": [
+          {
+            "triggerName": "",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Play 360 Video",
+                "actionType": 3,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_SOP_FB_03"
+              },
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_SOP_FB_03"
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_SOP_FB_03"
+              }
+            ]
+          }
+        ],
+        "graphicalElements": [
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "CenterContinue",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Continue",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": -0.3,
+              "y": -1.0,
+              "z": 2.6
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "Continue",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": -0.3,
+              "y": -0.75,
+              "z": 2.6
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 27,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          },
+          {
+            "displayType": 1,
+            "startTime": 0.0,
+            "elementName": "ReplayVideo",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Replay Feedback",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": 0.3,
+              "y": -1.0,
+              "z": 2.6
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "Replay",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": 0.3,
+              "y": -0.75,
+              "z": 2.6
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Replay Video",
+                "actionType": 4,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeName": "SC02_Replay",
+        "nodeID": 27,
+        "actionTriggers": [
+          {
+            "triggerName": "",
+            "triggerType": 0,
+            "triggerTime": 0,
+            "actionSequence": [
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ],
+        "graphicalElements": [
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "ScoringFeedbackText",
+            "interactable": false,
+            "scoringFeedback": true,
+            "text": "",
+            "textAlignmentHorizontal": 0,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 12,
+            "textBoxSize": {
+              "x": 240.0,
+              "y": 140.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": 0.15,
+              "z": 2.95
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "",
+            "imageSize": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          },
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "Retry",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Retry",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 3.0
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "imageName": "Replay",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": 0.0,
+              "y": -0.75,
+              "z": 3.0
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Next Node",
+                "actionType": 0,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          },
+          {
+            "displayType": 0,
+            "startTime": 0.0,
+            "elementName": "PlayOptimalVideos",
+            "interactable": true,
+            "scoringFeedback": false,
+            "text": "Play Ideal Scenario",
+            "textAlignmentHorizontal": 1,
+            "textAlignmentVertical": 1,
+            "textFont": "DOSIS-LIGHT",
+            "fontSize": 10,
+            "textBoxSize": {
+              "x": 150.0,
+              "y": 30.0
+            },
+            "textPosition": {
+              "x": 1.25,
+              "y": -1.0,
+              "z": 2.8
+            },
+            "textRotation": {
+              "x": 0.0,
+              "y": 30.0,
+              "z": 0.0
+            },
+            "imageName": "Play",
+            "imageSize": {
+              "x": 115.0,
+              "y": 115.0
+            },
+            "imagePosition": {
+              "x": 1.25,
+              "y": -0.75,
+              "z": 2.8
+            },
+            "imageRotation": {
+              "x": 0.0,
+              "y": 30.0,
+              "z": 0.0
+            },
+            "actionSequence": [
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Play 360 Video",
+                "actionType": 3,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_OPT_01"
+              },
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Play 360 Video",
+                "actionType": 3,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_OPT_02"
+              },
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Play 360 Video",
+                "actionType": 3,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 0,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": "SC02_OPT_03"
+              },
+              {
+                "actionName": "Fade In",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 0,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              },
+              {
+                "actionName": "Fade Out",
+                "actionType": 1,
+                "connectedNodeID": 0,
+                "transitionType": 1,
+                "transitionDuration": 1500,
+                "scoreType": 0,
+                "scoreValue": 0.0,
+                "videoName": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

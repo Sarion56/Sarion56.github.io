@@ -1,0 +1,93 @@
+{
+  "scenarioName": "Pause/Resume Test",
+  "scenarioBackgroundImage": "",
+  "scenarioFolder": "http://yesvrvirtualtraining.s3-ap-southeast-2.amazonaws.com/RSA/Scenario2/",
+  "scenarioImageJSON": "http://yesvrvirtualtraining.s3-ap-southeast-2.amazonaws.com/RSA/Images/Scenario2_Images.json",
+  "nodes": [
+    {
+      "nodeName": "Node 0",
+      "nodeID": 0,
+      "actionTriggers": [
+        {
+          "triggerName": "Start Sequence",
+          "triggerType": 0,
+          "triggerTime": 0,
+          "actionSequence": [
+            {
+              "actionName": "Fade to Clear",
+              "actionType": 1,
+              "transitionType": 1,
+              "transitionDuration": 1500
+            },
+            {
+              "actionName": "Play 360",
+              "actionType": 3,
+              "videoName": "SC02_OPT_01"
+            }
+          ]
+        },
+        {
+          "triggerName": "Pause Video",
+          "triggerType": 0,
+          "triggerTime": 4000,
+          "actionSequence": [
+            {
+              "actionName": "Pause",
+              "actionType": 6
+            }
+          ]
+        }
+      ],
+      "graphicalElements": [
+        {
+          "elementName": "Resume Video",
+          "displayType": 2,
+          "interactable": true,
+          "scoringFeedback": false,
+          "startTime": 4000,
+          "endTime": 0,
+          "text": "Play Ideal Scenario",
+          "textFont": "DOSIS-LIGHT",
+          "fontSize": 10,
+          "textBoxSize": {
+            "x": 150.0,
+            "y": 30.0
+          },
+          "textPosition": {
+            "x": 1.25,
+            "y": -1.0,
+            "z": 2.8
+          },
+          "textRotation": {
+            "x": 0.0,
+            "y": 30.0,
+            "z": 0.0
+          },
+          "TextAlignmentHorizontal": 1,
+          "TextAlignmentVertical": 1,
+          "imageName": "Play",
+          "imageSize": {
+            "x": 115.0,
+            "y": 115.0
+          },
+          "imagePosition": {
+            "x": 1.25,
+            "y": -0.75,
+            "z": 2.8
+          },
+          "imageRotation": {
+            "x": 0.0,
+            "y": 30.0,
+            "z": 0.0
+          },
+          "actionSequence": [
+            {
+              "actionName": "Resume",
+              "actionType": 7
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
